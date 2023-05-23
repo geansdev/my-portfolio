@@ -53,7 +53,7 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
               criar e{" "}
               <Text as="span" type="heading1" color="brand1">
-                desemvolver
+                desenvolver
               </Text>{" "}
               projetos
             </Text>
