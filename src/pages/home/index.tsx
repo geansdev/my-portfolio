@@ -7,6 +7,7 @@ import { Button } from "@/styles/Buttons";
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
 import { Contacts } from "@/components/Contacts";
+import { AboutMe } from "@/components/about";
 
 // Data
 import { stackData } from "@/utils/stackData";
@@ -87,6 +88,7 @@ export const Home = (): JSX.Element => {
           </HeaderContent>
         </Container>
       </Header>
+      <AboutMe />
       <ProjectsArea id="projects">
         <Container>
           <ProjectAreaWrapperColumns>
