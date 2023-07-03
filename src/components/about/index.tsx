@@ -5,7 +5,7 @@ import { AboutSectionH3, AboutSectionText } from "./style";
 
 export const AboutMe = () => {
   return (
-    <ContactSection>
+    <ContactSection id="about-me">
       <Container>
         <AboutSectionH3>
           <Text as="h3" type="heading1" color="grey5">
